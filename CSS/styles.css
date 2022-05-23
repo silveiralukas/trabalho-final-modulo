@@ -1,0 +1,205 @@
+* {
+
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+section.primeira-coluna {
+    width: 40vw;
+    height: 100vh;
+    background-image: url("../images/img-login-carro.jpg");
+    background-size: cover;
+    position: absolute;
+    left: 0;
+}
+
+section.segunda-coluna {
+    width: 60vw;
+    height: 100vh;
+    background-color: darkgray;
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    text-align: center;
+}
+
+input {
+    width: 512px;
+    height: 50px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    display: block;
+    font-size: 16px;
+    width: 512px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: orangered;
+}
+
+#conta-login {
+    font-size: 25px;
+}
+
+.usuario {
+    display: block;
+    font-size: 16px;
+    width: 512px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.senha {
+    display: block;
+    font-size: 16px;
+    width: 512px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.senha2 {
+    display: block;
+    font-size: 16px;
+    width: 512px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    display: block;
+    font-size: 16px;
+    width: 517px;
+    height: 50px;
+    margin-bottom: 10px;
+    color: orangered;
+}
+
+a {
+    color: orangered;
+    font-size: 20px;
+    position: absolute;
+    bottom: 140px;
+    right: 340px;
+}
+
+.recados {
+    margin-top: 40px;
+    margin-left: 40px;
+    font-size: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#input-titulo {
+    position: absolute;
+    left: 38px;
+    margin-top: 30px;
+    height: 30px;
+    width: 300px;
+}
+
+#input-descricao {
+    position: absolute;
+    left: 350px;
+    margin-top: 30px;
+    height: 30px;
+    width: 700px;
+}
+
+#btn-salvar {
+    width: 60px;
+    height: 35px;
+    font-size: 18px;
+    color:white;
+    position: absolute;
+    left: 1060px;
+    margin-top: 29px;
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 10%;
+}
+
+#btn-sair {
+    width: 60px;
+    height: 35px;
+    font-size: 18px;
+    position: absolute;
+    left: 1125px;
+    margin-top: 29px;
+    background-color: white;
+    border-color: orangered;
+    color:black;
+    border-radius: 10%;
+}
+
+body {
+    background-color: rgb(192, 191, 191);
+}
+
+#logar {
+    position: absolute;
+    left: 155px;
+    color: orangered;
+    font-weight: bold;
+}
+
+#btn-cadastrar {
+    font-weight: bold;
+}
+
+#tabela-registros {
+    position: absolute;
+    top: 160px;
+    width: 1000px;
+}
+
+#tbody {
+    position: relative;
+    left: 100px;
+    font-size: 17px;
+
+}
+
+th {
+    font-size: 20px;
+}
+
+#btn-editar{
+    width: 30px;
+    height: 20px;
+    font-size: 10px;
+    color:white;
+    position: absolute;
+    left: 795px;
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 10%;
+}
+
+#btn-apagar{
+    width: 40px;
+    height: 20px;
+    font-size: 10px;
+    color:black;
+    position: absolute;
+    left: 830px;
+    background-color: white;
+    border-color: orangered;
+    border-radius: 10%;
+}

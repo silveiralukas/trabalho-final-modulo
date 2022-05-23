@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./CSS/styles.css">
+        <title>Home</title>
+    </head>
+
+    <body>
+        <h1 class="recados">Meus Recados</h1>
+        <form id="form-cadastro">
+            
+            <label for="input-titulo"></label>
+            <input type="text" name="descricao" id="input-titulo" placeholder="Descrição">
+
+            <label for="input-descricao"></label>
+            <input type="text" name="detalhamento" id="input-descricao" placeholder="Detalhamento">
+
+            <input type="submit" value="Salvar" id="btn-salvar">
+            <input type="submit" value="Sair" id="btn-sair"></input>
+            <input type="hidden" value="novo" id="idx" name="idx" />
+        </form>
+
+        <table id="tabela-registros">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Descrição</th>
+                    <th>Detalhamento</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+
+            <tbody id="tbody"></tbody>
+        </table>
+        <script src="./home.js"></script>
+    </body>
+</html>
